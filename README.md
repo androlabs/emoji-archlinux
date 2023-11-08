@@ -10,25 +10,8 @@ $ sudo pacman -S noto-fonts-emoji
 ## Configure Emoji Font
 
 ```sh
-$ cd ~/.config/fontconfig/ && ls
+$ nano ~/.config/fontconfig/fonts.conf
 ```
-
-<hr>
-
-_Check if exists file_ `fonts.conf`
-
-* Case not exists
-
-```sh
-$ sudo touch fonts.conf
-```
-
-* Case exists
-
-```sh
-$ sudo nano fonts.conf
-```
-<hr>
 
 Insert in `fonts.conf`
 
