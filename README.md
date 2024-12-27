@@ -61,3 +61,7 @@ Check emojis here!
 🥶 😳 🤪 😵 😡 😠 🤬 😷 🤒 🤕 🤢 🤮 🤧 😇 🤠 🤡 🥳 🥴 🥺 🤥 🤫 🤭 🧐 🤓 😈 👿 👹 👺 💀 👻 👽 🤖 💩 
 😺 😸 😹 😻 😼 😽 🙀 😿 😾
 ```
+
+## Troubleshooting
+
+Bitmap fonts may be disabled. To enable try to remove symlink `/etc/fonts/conf.d/70-no-bitmaps.conf`
